@@ -9,8 +9,8 @@ import org.telegram.telegrambots.exceptions.TelegramApiException;
 import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
 
 public class Bot extends TelegramLongPollingBot{
-    final String BOT_USERNAME = "";
-    final String BOT_TOKEN = "";
+    final String BOT_USERNAME = "instaFAQ_bot";
+    final String BOT_TOKEN = "514827275:AAFlyESPn8KiWuLYGjIAbf6-9ZHzfW5HMfw";
 
     public static void main(String[] args) {
         ApiContextInitializer.init();
