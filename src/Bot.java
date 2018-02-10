@@ -29,7 +29,7 @@ public class Bot extends TelegramLongPollingBot{
             }else {
                 if (message.getText().equals("/help")) {
                     sendMsg(message, "Бот канала Инстаграмотность." +
-                            " Здесь вы можете задать свои вопросы по Instagram, и в одном из выпуском получить ответ на них");
+                            " Здесь вы можете задать свои вопросы по Instagram, и в одном из выпусков получить ответ на них");
                 } else {
                     sendMsg(message, "Спасибо за вопрос , мы обязательно его рассмотрим!");
                     sendMsgToMe(message);
